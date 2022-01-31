@@ -13,7 +13,7 @@ public class TransactionEntity {
     @Column(name = "TOTAL49CARDS", nullable = false)
     private int total49Cards;
 
-    @Column(name = "TOTAL100CARDSd", nullable = false)
+    @Column(name = "TOTAL100CARDS", nullable = false)
     private int total100Cards;
 
     @Temporal(TemporalType.TIMESTAMP)
